@@ -7,5 +7,5 @@ def first_missing_positive(numbers):
         if i not in num_set:
             return i
 
-print(first_missing_positive([3, 4, -1, 1]))  # Output: 2
+print(first_missing_positive([3, 4, -1, 1]))
 
