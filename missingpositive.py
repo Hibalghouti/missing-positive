@@ -1,6 +1,6 @@
 def first_missing_positive(numbers):
-    
-    num_set = set(numbers) #removes duplicate when converting list to a set
+    #removes duplicate when converting list to a set
+    num_set = set(numbers) 
 
     # Start checking from the first positive integer
     for i in range(1, len(numbers) + 1): 
